@@ -1,3 +1,15 @@
+macro_mac_vim_b: macro_mac_vim_b{
+compatible = "zmk,behavior-macro";
+label = "macro_mac_vim_b";
+#binding-cells = <0>;
+bindings = <&kt LEFT_ALT>, <&kp LEFT_ARROW>, <&kt LEFT_ALT>;
+};
+macro_mac_vim_e: macro_mac_vim_e{
+compatible = "zmk,behavior-macro";
+label = "macro_mac_vim_e";
+#binding-cells = <0>;
+bindings = <&kt LEFT_ALT>, <&kp RIGHT_ARROW>, <&kt LEFT_ALT>;
+};
 macro_mac_desk_right: macro_mac_desk_right{
 compatible = "zmk,behavior-macro";
 label = "macro_mac_desk_right";
