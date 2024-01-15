@@ -36,7 +36,7 @@
     shftcaps: shift_caps {
         compatible = "zmk,behavior-mod-morph";
         #binding-cells = <0>;
-        bindings = <&kp LEFT_SHIFT>, <&kp CAPS>;
+        bindings = <&kp LCTRL>, <&kp CAPS>;
         mods = <(MOD_LSFT|MOD_RSFT)>;
     };
   };
