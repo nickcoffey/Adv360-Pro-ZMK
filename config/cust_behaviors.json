@@ -1,1 +1,7 @@
-[]
+[
+  {
+		"code": "&shftcaps",
+		"name": "Shift Caps",
+		"params": []
+	}
+]
